@@ -40,6 +40,10 @@ import cp3 from './cp3.png'
 import cp4 from './cp4.png'
 import cp5 from './cp5.png'
 
+import icon1 from './icon1.png'
+import icon2 from './icon2.png'
+import icon3 from './icon3.png'
+
 export {
   img1,
   img2,
@@ -78,4 +82,7 @@ export {
   cp3,
   cp4,
   cp5,
+  icon1,
+  icon2,
+  icon3,
 };
