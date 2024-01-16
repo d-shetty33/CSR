@@ -10,8 +10,6 @@ const Contact = () => {
   const [name,setName]=useState("")
   const [email,setEmail]=useState("")
   const [message,setMessage]=useState("")
-
-  
   
   const createMsg= async (e) => {
     
@@ -35,30 +33,25 @@ const Contact = () => {
       <button class="submit" onClick={createMsg}>
         <div class="submit1">Submit</div>
       </button>
-
+      
       <input class="checkbox" required="{true}" type="checkbox" />
       <div class="agree">I agree to the terms & conditions</div>
-
-
       <div class="name">Name</div>
       <div class="big-box">
-      
-      
-      <input class="input"
+        
+        <input class="input"
         value={name} 
         onChange={(e)=>{
           setName(e.target.value)
         }}
         required
         type="text" />
-
-      </div>
-      
-      
-      <div class="message">Message</div>
+        
+        </div>
+        <div class="message">Message</div>
       <div class="box">
         
-      <input class="input1"
+        <input class="input1"
         value={message}
         onChange={(e)=>{
           setMessage(e.target.value)
@@ -70,7 +63,6 @@ const Contact = () => {
 
       
       <div class="email">Email</div>
-      
       <div class="box1">
         
       <input class="input1"
@@ -80,7 +72,7 @@ const Contact = () => {
         }}
         required
         type="email" />
-        
+
       </div>
       
       <div class="address">123 Main St, New BEL Road,Bangalore, India</div>
