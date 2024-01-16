@@ -34,10 +34,7 @@ const Host = () => {
 
     
   };
-
-
-
-
+  
   return (
     <div className="body">
     <div className="main">
