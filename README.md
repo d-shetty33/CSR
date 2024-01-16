@@ -1,4 +1,3 @@
-# React + Vite
 # Common CSR Portal
 
 ## Overview
