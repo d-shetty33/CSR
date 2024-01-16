@@ -1,167 +1,194 @@
-.host .host1 {
-  cursor: pointer;
-  border: 1px solid #384d6c;
-  padding: 0;
-  background-color: #32859a;
-  position: absolute;
-  width: 37.22%;
-  top: calc(50% + 107.5px);
-  right: 32.51%;
-  left: 30.27%;
-  border-radius: 8px;
-  box-sizing: border-box;
-  height: 50px;
-  overflow: hidden;
+.body {
+  display: flex;
+  padding-left: 1000px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin: 0;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
 }
 
-.host .desc-input {
-  position: absolute;
-  top: 0px;
-  left: 38px;
-  border-radius: 10px;
-  background-color: #fff;
-  border: 1px solid #9095a0;
-  box-sizing: border-box;
-  width: 260px;
-  height: 27px;
-  mix-blend-mode: soft-light;
+.body {
+  justify-content: 100px; /* Example pixel value for horizontal positioning */
+  align-items: 80px; /* Example pixel value for vertical positioning */
 }
 
-.host .sort-icon {
-  position: absolute;
-  height: 44.44%;
-  width: 6.04%;
-  top: 33.33%;
-  right: 93.96%;
-  bottom: 22.22%;
-  left: 0%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-.host .desc {
-  position: absolute;
-  top: 263px;
-  left: 29px;
-  width: 298px;
-  height: 27px;
-}
-
-.host .loc-input {
-  position: absolute;
-  top: 0px;
-  left: 39px;
-  border-radius: 10px;
-  background-color: #fff;
-  border: 1px solid #9095a0;
-  box-sizing: border-box;
-  width: 260px;
-  height: 27px;
-  mix-blend-mode: soft-light;
-}
-
-.host .add-location-icon {
-  position: absolute;
-  height: 74.07%;
-  width: 5.35%;
-  top: 7.41%;
-  right: 94.65%;
-  bottom: 18.52%;
-  left: 0%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-.host .loc {
-  position: absolute;
-  top: 220px;
-  left: 28px;
-  width: 299px;
-  height: 27px;
-}
-
-.host .clock-icon {
-  position: absolute;
-  height: 81.87%;
-  width: 10.67%;
-  top: 9.79%;
-  right: 89.33%;
-  bottom: 8.33%;
-  left: 0%;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-.host .sunday {
-  position: absolute;
-  top: 0px;
-  left: 41.65px;
-  line-height: 150%;
-}
-
-.host .time {
-  position: absolute;
-  height: 5.25%;
-  width: 49.54%;
-  top: 38.51%;
-  right: 44.17%;
-  bottom: 56.24%;
-  left: 6.29%;
-}
-
-.host .event-input {
-  position: absolute;
-  top: 32px;
-  left: 0px;
-  border-radius: 10px;
-  background-color: #fff;
-  border: 1px solid #9095a0;
-  box-sizing: border-box;
-  width: 303px;
-  height: 28px;
-  mix-blend-mode: soft-light;
-}
-
-.host .event1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  line-height: 150%;
-}
-
-.host .event {
-  position: absolute;
-  top: 93px;
-  left: 24px;
-  width: 303px;
-  height: 60px;
-  color: #171a1f;
-}
-
-.host .head1 {
-  position: absolute;
-  top: 35px;
-  left: 26px;
-  font-size: 25px;
-  line-height: 150%;
-  text-align: center;
-}
-
-.host {
+/* Main container styling */
+.main {
   position: relative;
-  border-radius: 47px;
-  background: linear-gradient(180.06deg, #d6eaf5, rgba(255, 255, 255, 0));
-  width: 407px;
-  height: 457px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #9ee7ff, rgba(218, 237, 249, 0));
+  width: 89%;
+  height: 475px;
   overflow: hidden;
-  text-align: left;
   font-size: 16px;
   color: #000;
   font-family: Inter;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  transition: transform 0.2s;
+  margin-top: -400px;
+  bottom: 0;
+}
+
+
+
+.main .head {
+  font-size: 25px;
+}
+
+.main form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.main .event {
+  position: relative;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: Inter;
+  color: #171a1f;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 8px;
+  bottom: 0px;
+}
+
+
+.main .date {
+  position: absolute;
+  top: 38%;
+  left: 17%;
+  line-height: 150%;
+  width: 40%;
+}
+
+.main .icon1 {
+  position: absolute;
+  height: 34px;
+  width: 25%;
+  top: 38%;
+  margin-left: 30px;
+  right: 89.33%;
+  bottom: 0.56%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+
+
+.main .icon1 {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: 39%;
+  margin-left: 30px;
+  right: 89.33%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+
+.main .icon2,
+.main .icon3 {
+  position: absolute;
+  height: auto; /* Auto height to maintain aspect ratio */
+  width: 25px;
+  margin-left: 30px;
+  right: 87.8%;
+  transform: translateY(-50%); /* Center the image vertically */
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.main .icon2 {
+  top: 54%;
+}
+
+.main .icon3 {
+  top: 68.4%;
+}
+
+.main input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: grey;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+
+}
+
+.main .input2 {
+  left: 35%;
+  width: 182%;
+  margin-top: 22%;
+  border-radius: 8px;
+}
+
+.main .input3 {
+  left: 35%;
+  width: 182%;
+  margin-top: 18%;
+  border-radius: 8px;
+}
+
+.main .input1{
+  top: 10px;
+}
+
+
+.main h2,
+.main h3 {
+  text-align: center;
+  color: black;
+}
+
+.main input {
+  position: relative;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+  width: 130%;
+  height: 35px;
+  padding: 10px;
+}
+
+.main .host1 {
+  position: absolute;
+  cursor: pointer;
+  width: 38.27%;
+  top: 80%;
+  right: 31.63%;
+  left: 30.1%;
+  border-radius: 8px;
+  background-color: #32859a;
+  border: 1px solid #384d6c;
+  box-sizing: border-box;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 2px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.host1:hover {
+  background-color: var(--dark-orange);
 }
