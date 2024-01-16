@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./Event2.css";
 import { database } from "../../../config/appwrite";
 
+
 const Event2 = () => {
   const [data, setData] = useState([]);
 
+  
   useEffect(() => {
     getData();
   }, []);
@@ -31,10 +33,6 @@ const Event2 = () => {
 };
 
 export default Event2;
-
-
-
-
 
 
 
