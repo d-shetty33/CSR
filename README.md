@@ -1,8 +1,9 @@
+# React + Vite
 # Common CSR Portal
 
 ## Overview
 
-Welcome to the Common CSR Portal, a platform that facilitates organizations to host events and allows companies to participate in these events. The website is built using Vite and React, providing a modern and efficient user interface. Currently, the portal is integrated with Appwrite authentication to ensure secure access.
+Welcome to the Common CSR (Corporate Social Responsibility) Portal, a platform that facilitates organizations to host events and allows companies to participate in these events. The website is built using Vite and React, providing a modern and efficient user interface. Currently, the portal is integrated with Appwrite authentication and database to ensure secure access.
 
 ## Features
 
