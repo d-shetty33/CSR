@@ -16,7 +16,7 @@ Welcome to the Common CSR Portal, a platform that facilitates organizations to h
 To clone this repository to your system, follow these steps:
 
 1. **Clone the Repository:**
-   git clone https://github.com/srutikarlakshmi/csr
+   git clone https://github.com/d-shetty33/CSR
 
 2. **Install Dependencies:**
    npm install
