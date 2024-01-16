@@ -11,18 +11,13 @@ const Contact = () => {
   const [email,setEmail]=useState("")
   const [message,setMessage]=useState("")
 
-
+  
+  
   const createMsg= async (e) => {
-    // if(name.length<3){
-    //   return
-    // }
-    // if(email.length<5) {
-    //   return
-    // }
-    // if(message.length<10) {
-    //   return
-    // }
+    
+    
     console.log("hello")
+    
     const res= await database.createDocument("658fb4872811d10690cc","658fb50b21159a9e22ba",ID.unique(),{
       desc:name,email,
       username:message
@@ -36,48 +31,56 @@ const Contact = () => {
   return (
     <div class="contact" id="contact">
       <div class="rect"></div>
+      
       <button class="submit" onClick={createMsg}>
         <div class="submit1">Submit</div>
       </button>
+
       <input class="checkbox" required="{true}" type="checkbox" />
       <div class="agree">I agree to the terms & conditions</div>
 
 
       <div class="name">Name</div>
       <div class="big-box">
-
-        <input class="input"
+      
+      
+      <input class="input"
         value={name} 
         onChange={(e)=>{
           setName(e.target.value)
         }}
         required
         type="text" />
+
       </div>
       
       
       <div class="message">Message</div>
       <div class="box">
-        <input class="input1"
+        
+      <input class="input1"
         value={message}
         onChange={(e)=>{
           setMessage(e.target.value)
         }} 
         required
         type="text" />
+
       </div>
 
       
       <div class="email">Email</div>
       
       <div class="box1">
-        <input class="input1"
+        
+      <input class="input1"
         value={email} 
         onChange={(e)=>{
           setEmail(e.target.value)
         }}
         required
         type="email" />
+        
       </div>
       
       <div class="address">123 Main St, New BEL Road,Bangalore, India</div>
