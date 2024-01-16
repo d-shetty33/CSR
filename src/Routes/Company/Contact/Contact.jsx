@@ -32,8 +32,7 @@ const Contact = () => {
     setMessage("")
 
   }
-
-
+  
   return (
     <div class="contact" id="contact">
       <div class="rect"></div>
